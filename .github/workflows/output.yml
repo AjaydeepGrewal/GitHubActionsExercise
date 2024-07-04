@@ -1,0 +1,7 @@
+name: Output Information
+on: workflow_dispatch
+jobs:
+  info
+  steps:
+    - name: Get Context Info
+      run: echo "{{toJSON(github)}}"
