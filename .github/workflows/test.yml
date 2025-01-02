@@ -37,5 +37,7 @@ jobs:
        with: 
          name: Uploaded files
      - name: Output
-       run: ls
+       run: |
+         cd dist
+         ls
             
